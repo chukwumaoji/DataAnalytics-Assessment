@@ -62,6 +62,3 @@ The solution sticks closely to the definition provided, including the assumption
 - I used `ROUND()` in some queries to make outputs easier to read and match expected formats.
 - `NULLIF()` was used in divisions to avoid errors where tenure or transaction counts might be zero.
 - I assumed that each row in the savings or investment table represents a transaction (based on the structure).
-
-Let me know if you'd like me to adjust the queries based on additional business logic or new assumptions.
-
