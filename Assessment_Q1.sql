@@ -1,3 +1,6 @@
+-- Assessment_Q1.sql
+
+-- Retrieve customers with both funded savings and investment plans
 SELECT
     u.id AS owner_id,
     CONCAT(u.first_name, ' ', u.last_name) AS name,
